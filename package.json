@@ -1,0 +1,30 @@
+{
+  "name": "grocerybag",
+  "version": "1.0.0",
+  "description": "Simple grocerybag application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "start:server": "nodemon --watch server ./index.js"
+  },
+  "keywords": [],
+  "author": "Tarun",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4",
+    "winston": "^3.3.3"
+  }
+}
