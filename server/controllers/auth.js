@@ -259,9 +259,9 @@ exports.activateAccount = (req,res) => {
        return res.json({
            message:"your password got successfully reset."
        });
-
+       
       })
-    
+
     });
 
   });
